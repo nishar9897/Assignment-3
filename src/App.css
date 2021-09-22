@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body{
+  background-color: rgb(12, 17, 17);
   display: flex;
   flex-direction: column;
+  font-size: 1.5rem;
+  text-align: center;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+h1{
+  color: aliceblue;
+  text-align: center;
+  font-size: 5 rem;
+}
+.list-of-songs
+{
+  padding-top: 10px;
+  width: 800px;
+  height:50%;
+}
+.music-status{
+  background: burlywood;
+  padding: 3px 10px;
+  font-size: 1.0rem;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+.music-status button{
+  color: red;
+}
+.music-status .likebutton{
+  color:blue;
+}
+.button {
+ border: 0;
+ cursor: pointer;
+ font-size: 18px;
+ outline: 0;
+ align-items: center;
+ 
 }
 
-.App-link {
-  color: #61dafb;
+input{
+  background:rgba(252, 252, 252, 0.925);
+  padding:7px 10px;
+  font-size: 1rem;
+  color: black;
+  outline: 0;
+  border: 0;
+  flex:1;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+form{
+  display: flex;
+  padding-top:10px;
+}
+form button{
+  color:black;
+  background: rgb(16, 236, 71);
+  outline: 0;
+  padding:0 15px;
+}
+.search{
+  display: flex;
+  padding-bottom:10px;
+}
+.search button{
+  color:black;
+  background: rgb(16, 236, 71);
+  outline: 0;
+  border: 0;
+  padding:0 15px;
 }
