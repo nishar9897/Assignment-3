@@ -22,10 +22,17 @@ h1{
   background: burlywood;
   padding: 3px 10px;
   font-size: 1.0rem;
-  margin-bottom: 6px;
+  margin-bottom: 3px;
   display: flex;
   align-items: center;
   justify-content:space-between;
+  height: 75px;
+}
+.music-status .subtitle{
+  padding: 3px 10px;
+  margin-bottom: 6px;
+  align-content: center;
+ 
 }
 .music-status button{
   color: red;
@@ -71,4 +78,22 @@ form button{
   outline: 0;
   border: 0;
   padding:0 15px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ec8585;
+  min-width: 100px;
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
